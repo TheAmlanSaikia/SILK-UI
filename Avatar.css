@@ -1,0 +1,47 @@
+.avatar-container {
+  display: flex;
+  margin: 2rem;
+}
+
+.item {
+  margin-right: 2rem;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.avatar-xl-size {
+  width: 10rem;
+  height: 10rem;
+}
+
+.avatar-lg-size {
+  width: 8rem;
+  height: 8rem;
+}
+
+.avatar-md-size {
+  width: 6rem;
+  height: 6rem;
+}
+
+.avatar-sm-size {
+  width: 4rem;
+  height: 4rem;
+}
+
+.avatar-xs-size {
+  width: 2rem;
+  height: 2rem;
+}
+
+.img-responsive {
+  width: 100%;
+  height: 100%;
+}
+
+.img-round {
+  border-radius: 50%;
+}
+
