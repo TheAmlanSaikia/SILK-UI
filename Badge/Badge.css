@@ -21,16 +21,6 @@
   position: relative;
 }
 
-.badge-status {
-  position: absolute;
-  width: 15%;
-  border-radius: 50%;
-  height: 15%;
-  bottom: 16%;
-  right: 1%;
-  border: solid 0.17rem white;
-}
-
 .avatar-xl-size {
   width: 10rem;
   height: 10rem;
@@ -65,6 +55,17 @@
   border-radius: 50%;
 }
 
+.badge-status {
+  position: absolute;
+  width: 15%;
+  border-radius: 50%;
+  height: 15%;
+  bottom: 16%;
+  right: 1%;
+  text-align: center;
+  border: solid 0.17rem white;
+}
+
 .badge-status-busy {
   background-color: crimson;
 }
@@ -75,4 +76,14 @@
 
 .badge-status-away {
   background-color: yellow;
+}
+
+.badge-status-number {
+  width: 1.62rem;
+  height: 1.62rem;
+  top: -1.3rem;
+  right: -0.6rem;
+  color: #ffe181;
+  font-weight: 300;
+  background-color: #490e60;
 }
