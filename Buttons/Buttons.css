@@ -1,5 +1,6 @@
 @import url(/Reset.css);
-@import url(/Variable.css);
+@import url(/Colorvariable.css);
+@import url(/Typography.css);
 
 .flex-centre {
   display: flex;

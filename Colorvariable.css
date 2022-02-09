@@ -14,4 +14,16 @@
   --danger-text-color: #dc3545;
   --warning-color: #ffe7c5;
   --warning-text-color: #ff9204;
+   
+  /* Cards color */
+  
+  --var-box-shadow: rgb(0 0 0 / 10%) 0.3rem 0rem 0.75rem;
+  --pure-white: #fff;
+  --pure-black: rgb(0, 0, 0);
+  --off-white-picture-background: #f6f6f6;
+  --overlay-background-color: #eeeef0;
+  --overlay-text-color: #c1c2c4;
+
+
+
 }

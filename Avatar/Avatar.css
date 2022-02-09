@@ -1,8 +1,6 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-  padding: 0;
-}
+@import url(/Reset.css);
+@import url(/Colorvariable.css);
+@import url(/Typography.css);
 
 .display-container {
   display: flex;

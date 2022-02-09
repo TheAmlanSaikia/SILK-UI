@@ -1,21 +1,8 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+@import url(/Reset.css);
+@import url(/Colorvariable.css);
+@import url(/Typography.css);
 
-:root {
-  --primary-color: #e6e6fa;
-  --primary-text-color: #490e60;
-  --secondary-color: #326771;
-  --secondary-text-color: #071203;
-  --success-color: #84f1c9;
-  --success-text-color: #1b7052;
-  --danger-color: #fcc5c5;
-  --danger-text-color: #dc3545;
-  --warning-color: #ffe7c5;
-  --warning-text-color: #ff9204;
-}
+
 
 .displaycontainer-column {
   margin: 4rem;
@@ -26,7 +13,7 @@
   padding: 1rem 3rem 1rem 1rem;
   margin: 1rem 0;
   width: 100%;
-  background-color: red;
+  
 }
 
 .alert-primary {
