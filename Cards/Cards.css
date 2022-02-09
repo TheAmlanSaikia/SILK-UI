@@ -3,7 +3,7 @@
 @import url(/Colorvariable.css);
 
 .display-container {
-  margin: 4rem;
+  margin: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -100,14 +100,14 @@
 /* Basic text card */
 
 .basic-card {
-  width: 23rem;
-  height: 14rem;
+  max-width: 23rem;
+  max-height: 14rem;
   margin: 1.5rem;
 }
 
 .basic-information-container {
-  width: 23rem;
-  height: 14rem;
+  max-width: 23rem;
+  max-height: 14rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -120,19 +120,19 @@
 }
 
 .horizontal-cardbody {
-  width: 40rem;
-  height: 25rem;
-  margin: 1.5rem;
+  max-width: 40rem;
+  max-height: 25rem;
+  margin: 1.5rem 0.5rem;
   display: flex;
 }
 
 .horizontal-image-container {
-  height: 25rem;
-  width: 23rem;
+  max-height: 25rem;
+  max-width: 23rem;
 }
 
 .horizontal-information-container {
-  height: 25rem;
+  max-height: 25rem;
   width: 17rem;
   display: flex;
   flex-direction: column;
@@ -140,7 +140,7 @@
 }
 
 .horizontal-text-container {
-  height: 50%;
+  height: 70%;
 }
 
 .btn-horizontal-card {
