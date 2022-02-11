@@ -8,6 +8,9 @@
   --secondary-color: #326771;
   --secondary-text-color: #071203;
   --secondary-hover-color: #28525a;
+
+   /* Alerts And Button color */
+
   --success-color: #84f1c9;
   --success-text-color: #1b7052;
   --danger-color: #fcc5c5;
@@ -23,7 +26,12 @@
   --off-white-picture-background: #f6f6f6;
   --overlay-background-color: #eeeef0;
   --overlay-text-color: #c1c2c4;
+ 
+  /* Form Color  */
 
-
+    --success-input-color:#2ecc71;
+    --error-input-color: #e74c3c;
+    --off-white-picture-background: #f6f6f6;
+    --label-text-color: #777;
 
 }
