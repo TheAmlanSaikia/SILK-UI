@@ -4,13 +4,12 @@ const email = document.getElementById("email");
 const password1 = document.getElementById("password1");
 const password2 = document.getElementById("password2");
 
-
 function showError(input, message) {
   const formControl = input.parentElement;
   formControl.classList.add("error-class");
-  const smalltext = formControl.querySelector('small');
-  
-  smalltext.innerHTML=message;
+  const smalltext = formControl.querySelector("small");
+
+  smalltext.innerHTML = message;
 }
 
 function showSuccess(input) {

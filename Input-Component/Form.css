@@ -3,97 +3,82 @@
 @import url(/Colorvariable.css);
 
 .display-container-form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh; 
-    background-color: var(--off-white-picture-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--off-white-picture-background);
 }
 
-.form-container{
-   
-    background-color: var(--pure-white);
-    border-radius: 0.3rem;
-    box-shadow: var(--var-box-shadow);
-    width: 25rem;
+.form-container {
+  background-color: var(--pure-white);
+  border-radius: 0.3rem;
+  box-shadow: var(--var-box-shadow);
+  width: 25rem;
 }
 
-.title-text{
-    text-align: center;
-    margin-bottom: 1rem;
+.title-text {
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
-.form{
-    padding: 1.9rem 2.5rem;
-    
+.form {
+  padding: 1.9rem 2.5rem;
 }
 
 .form-control {
-    margin-bottom: 0.62rem;
-    padding-bottom: 1.24rem;
-    position:relative;
+  margin-bottom: 0.62rem;
+  padding-bottom: 1.24rem;
+  position: relative;
 }
 
-.form-label{
-    color: var(--label-text-color);
-    display: block;
-    margin-bottom: 0.312rem;
+.form-label {
+  color: var(--label-text-color);
+  display: block;
+  margin-bottom: 0.312rem;
 }
 
-.form-input{
-
-    border: 2px solid var(--off-white-picture-background);
-    border-radius: 0.3rem;
-    display: block;
-    width: 100%;
-    padding: 0.62rem;
-    font-size: 14px;
+.form-input {
+  border: 2px solid var(--off-white-picture-background);
+  border-radius: 0.3rem;
+  display: block;
+  width: 100%;
+  padding: 0.62rem;
+  font-size: 14px;
 }
 
-.form-input:focus{
-    border-color: var(--label-text-color);
+.form-input:focus {
+  border-color: var(--label-text-color);
 }
 
-
-.success-class input{
-    border-color: var(--success-color);
+.success-class input {
+  border-color: var(--success-color);
 }
 
-.error-class input{
-    border-color: var(--danger-text-color);
+.error-class input {
+  border-color: var(--danger-text-color);
 }
 
-/* .success-class input{
-    border-color: var(--success-color);
-} */
-
-
-/* .error-class input{
-    border-color: var(--danger-color);
-} */
 
 .error-msg {
-    color: var(--danger-text-color);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    visibility: hidden;
+  color: var(--danger-text-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
 }
 
-.error-class small{
-    visibility: visible;
+.error-class small {
+  visibility: visible;
 }
-
-
-
 
 .btn-submit {
-    cursor: pointer;
-    background-color: var(--pure-white);
-    border: 1px solid var(--pure-black);
-    display: block;
-    font-size: 16px;
-    padding: 0.625rem;
-    margin-top:1.24rem;
-    width: 100%;
+  cursor: pointer;
+  background-color: var(--pure-white);
+  border: 1px solid var(--pure-black);
+  display: block;
+  font-size: 16px;
+  padding: 0.625rem;
+  margin-top: 1.24rem;
+  width: 100%;
 }
