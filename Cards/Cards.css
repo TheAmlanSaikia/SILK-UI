@@ -1,6 +1,6 @@
 @import url(/Reset.css);
 @import url(/Typography.css);
-@import url(/Colorvariable.css);
+@import url(/Typography/Typography.css);
 
 .display-container {
   margin: 1rem;

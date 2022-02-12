@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url(/Colorvariable.css);
+@import url(/Margin.css);
+@import url(/Avatar/Avatar.css);
+@import url(/Cards/Cards.cs);
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Heading text */
+
+h1 {
+  font-size: 3rem;
+  line-height: 3.625rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+h5 {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+h6 {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* Paragrapgh text */
+
+.para-lg {
+  font-size: 1.125rem;
+}
+
+.para-md {
+  font-size: 1rem;
+}
+
+.para-sm {
+  font-size: 0.875rem;
+}
+
+/* Color text */
+
+.text-pri-color {
+  color: var(--primary-text-color);
+}
+
+.text-sec-color {
+  color: var(--secondary-text-color);
+}
+
+.text-disabled {
+  color: var(--overlay-text-color);
+}
+
+/* Text position */
+
+.text-left {
+  text-align: left;
+}
+
+.text-centre {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}

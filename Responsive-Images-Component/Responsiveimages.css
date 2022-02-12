@@ -1,13 +1,10 @@
 @import url(/Reset.css);
-
-.m-2{
-  margin:2rem;
-}
+@import url(/Margin.css);
+@import url(/Typography/Typography.css);
 
 .image-wrapper {
   display: flex;
   justify-content: center;
- 
 }
 
 .responsive-image {
@@ -19,7 +16,6 @@
 }
 
 .image-container {
-  margin: 2rem;
   display: flex;
   justify-content: center;
 }
@@ -27,13 +23,11 @@
 .circle-image {
   width: 7rem;
   height: 7rem;
-  margin: 1rem;
   border-radius: 50%;
 }
 
 .square-image {
   width: 7rem;
   height: 7rem;
-  margin: 1rem;
   border-radius: 0.5rem;
 }
