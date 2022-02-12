@@ -1,17 +1,21 @@
 @import url(/Reset.css);
 
+.m-2{
+  margin:2rem;
+}
+
 .image-wrapper {
   display: flex;
   justify-content: center;
-  margin: 2rem;
+ 
 }
 
 .responsive-image {
   max-inline-size: 100%;
   block-size: auto;
-  aspect-ratio: 2/1.5;
+  /* aspect-ratio: 2/1.5;
   object-fit: cover;
-  object-position: top center;
+  object-position: top center; */
 }
 
 .image-container {
