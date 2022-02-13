@@ -41,16 +41,19 @@ h6 {
 }
 
 /* Paragrapgh text */
+.text-xl {
+  font-size: 1.5rem;
+}
 
-.para-lg {
+.text-lg {
   font-size: 1.125rem;
 }
 
-.para-md {
+.text-md {
   font-size: 1rem;
 }
 
-.para-sm {
+.text-sm {
   font-size: 0.875rem;
 }
 

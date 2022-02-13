@@ -1,0 +1,25 @@
+@import url(/Reset.css);
+@import url(/Typography/Typography.css);
+@import url(/Toast/Toast.css);
+@import url(/Colorvariable.css);
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-style-none{
+    list-style: none;
+}
+.stacked-list {
+    width: max-content;
+}
+
+.stacked-container{
+     background-color: var(--off-white-picture-background);
+     padding: 1rem;
+     border: 1px solid var(--pure-black);
+     width: 20vw;
+     
+}
