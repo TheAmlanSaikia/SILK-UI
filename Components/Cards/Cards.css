@@ -1,0 +1,152 @@
+@import url(/Components/SILK-UI-V1.css);
+
+.vertical-cardbody {
+  width: 14.5rem;
+  margin: 1.5rem;
+  position: relative;
+}
+
+.card-shadow {
+  box-shadow: var(--var-box-shadow);
+}
+
+.image-container {
+  height: 16rem;
+  width: 14.5rem;
+  max-inline-size: 100%;
+  block-size: auto;
+  position: relative;
+}
+
+.cover-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.3rem;
+}
+
+.information-container {
+  height: 8.8rem;
+  width: 14.5rem;
+}
+
+.card-text-container {
+  min-height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0.4rem 0 0 1rem;
+}
+
+.btn-card {
+  width: 13rem;
+  height: 2.2rem;
+  margin: var(--value-1);
+  border: 1px solid var(--pure-black);
+  background-color: var(--pure-white);
+  cursor: pointer;
+}
+
+/* Card with Badge */
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0.5rem;
+}
+
+.wishlist-icon {
+  margin: 0.2rem;
+  cursor: pointer;
+}
+
+.wishlist-btn{
+  background-color: var(--pure-white);
+  border: none;
+  padding: 0;
+}
+
+/* Card with Dismiss */
+
+.cross-btn {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.3rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--off-white-picture-background);
+  border: 0px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Card with overlay */
+
+.overlay-section {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: var(--overlay-background-color);
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-text {
+  color: var(--overlay-text-color);
+}
+
+/* Basic text card */
+
+.basic-card {
+  max-width: 23rem;
+  max-height: 14rem;
+  margin: var(--value-2);
+}
+
+.basic-information-container {
+  max-width: 23rem;
+  max-height: 14rem;
+  margin: var(--value-1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.basic-text-container {
+  height: 80%;
+  text-align: center;
+}
+
+.horizontal-cardbody {
+  max-width: 40rem;
+  max-height: 25rem;
+  margin: 1.5rem 0.5rem;
+  display: flex;
+}
+
+.horizontal-image-container {
+  max-inline-size: 100%;
+  block-size: auto;
+  max-height: 25rem;
+  max-width: 23rem;
+}
+
+.horizontal-information-container {
+  max-height: 25rem;
+  width: 17rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.horizontal-text-container {
+  margin-top: var(--value-2);
+  height: 70%;
+}
+
+.btn-horizontal-card {
+  width: auto;
+}

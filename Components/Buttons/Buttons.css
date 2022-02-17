@@ -1,0 +1,110 @@
+@import url(/Components/SILK-UI-V1.css);
+
+
+.flex-centre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-container {
+  display: flex;
+  margin: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.btn {
+  margin: var(--value-2);
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-primary-solid {
+  background-color: var(--theme-color);
+  color: var(--theme-text-color);
+  border: 0.125rem solid var(--theme-color);
+}
+
+
+
+.btn-primary-outline {
+  border: 0.125rem solid var(--theme-color);
+  color: var(--theme-color);
+}
+
+
+
+.underline-btn {
+  margin: 1rem;
+  text-decoration: underline;
+  text-underline-position: under;
+  cursor: pointer;
+  text-decoration-thickness: 0.1875rem;
+}
+
+.btn-primary-underline {
+  text-decoration-color: var(--theme-color);
+}
+
+
+
+.btn-primary-round {
+  border-radius: 2.5rem;
+  padding: 0.7rem 1.5rem;
+}
+
+.link-btn {
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+}
+
+
+.btn-icon {
+  color: var(--theme-color);
+}
+
+
+
+/* Secondary Button */
+
+.btn-secondary-solid {
+  background-color: var(--secondary-color);
+  color: var(--theme-text-color);
+  border: 0.125rem solid var(--secondary-color);
+}
+
+
+.btn-secondary-outline {
+  border: 0.125rem solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.btn-secondary-underline {
+  text-decoration-color: var(--secondary-color);
+}
+
+/* Floating Buttons */
+
+.btn-floating-round {
+  background-color: var(--theme-color);
+  color: var(--theme-text-color);
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+}
+
+
+
+.btn-floating-roundcorner {
+  background-color: var(--theme-color);
+  color: var(--theme-text-color);
+  width: 8.3rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+}
+

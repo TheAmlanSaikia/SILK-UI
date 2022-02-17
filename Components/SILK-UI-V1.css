@@ -1,0 +1,20 @@
+@import url(/Components/Alert/Alert.css);
+@import url(/Components/Avatar/Avatar.css);
+@import url(/Components/Badge/Badge.css);
+@import url(/Components/Buttons/Buttons.css);
+@import url(/Components/Cards/Cards.css);
+@import url(/Components/Grid-template/Gridcontainer.css);
+@import url(/Components/Input-Component/Form.css);
+@import url(/Components/List-Component/List.css);
+@import url(/Components/Responsive-Images-Component/Responsiveimages.css);
+@import url(/Components/Toast/Toast.css);
+@import url(/Components/Utlity-files/Hover.css);
+@import url(/Components/Typography/Typography.css);
+@import url(/Components/Utlity-files/Position.css);
+@import url(/Components/Utlity-files/Flexbox.css);
+@import url(/Components/Utlity-files/Utility.css);
+/* @import url(/Components/Utlity-files/Margin.css); */
+@import url(/Components/Utlity-files/Marginvalues.css);
+@import url(/Components/Utlity-files/Padding.css);
+@import url(/Components/Utlity-files/Reset.css);
+@import url(/Components/Utlity-files/Colorvariable.css);

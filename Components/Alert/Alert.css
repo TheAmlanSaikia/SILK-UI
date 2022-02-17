@@ -1,0 +1,37 @@
+@import url(/Components/SILK-UI-V1.css);
+
+
+
+
+.alert-body {
+  border-radius: 0.3rem;
+  padding: 1rem 3rem 1rem 1rem;
+  margin: var(--value-1) 0;
+  width: 100%;
+  
+}
+
+.alert-primary {
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+}
+
+.alert-secondary {
+  background-color: var(--secondary-color);
+  color: var(--secondary-text-color);
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: var(--success-text-color);
+}
+
+.alert-danger {
+  background-color: var(--danger-color);
+  color: var(--danger-text-color);
+}
+
+.alert-warning {
+  background-color: var(--warning-color);
+  color: var(--warning-text-color);
+}
