@@ -1,125 +1,117 @@
 @import url(/Components/SILK-UI-V1.css);
 
 * {
-    color: var(--text-color);
-
+  color: var(--text-color);
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: auto 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-        "sidebar navbar navbar navbar navbar navbar"
-        "sidebar header header header header header"
-        "sidebar main main main main main"
-        "sidebar main main main main main"
-        "sidebar main main main main main"
-        "sidebar main main main main main";
-
+  display: grid;
+  grid-template-columns: auto 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "sidebar navbar navbar navbar navbar navbar"
+    "sidebar header header header header header"
+    "sidebar main main main main main"
+    "sidebar main main main main main"
+    "sidebar main main main main main"
+    "sidebar main main main main main";
 }
 
 .navbar {
-    grid-area: navbar;
-    min-height: 11vh;
-    background-color: var(--pure-white);
-    box-shadow: var(--box-shadow-dark);
-    padding: var(--value-2) var(--value-2);
-    top: 0;
-    z-index: 2;
-    /* gap: var(--value-2); */
+  grid-area: navbar;
+  min-height: 11vh;
+  background-color: var(--pure-white);
+  box-shadow: var(--box-shadow-dark);
+  padding: var(--value-2) var(--value-2);
+  top: 0;
+  z-index: 2;
 }
 
 .navlinks {
-    gap: var(--value-2);
-    line-height: 0;
-    color: black;
+  gap: var(--value-2);
+  line-height: 0;
+  color: black;
 }
 
 .navbar-link:hover {
-
-    display: block;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-decoration-color: var(--success-color);
+  display: block;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: var(--success-color);
 }
 
 i {
-    color: var(--pure-black);
+  color: var(--pure-black);
 }
 
 .sidebar {
-    grid-area: sidebar;
-    height: 100vh;
-    width: 16rem;
-    border-right: thick double var(--line-color);
-    position: sticky;
-    top: 0;
+  grid-area: sidebar;
+  height: 100vh;
+  width: 16rem;
+  border-right: thick double var(--line-color);
+  position: sticky;
+  top: 0;
 }
 
 .sidebar-navbar {
-    min-height: 11vh;
-    background-color: var(--pure-white);
-    box-shadow: var(--box-shadow-dark-left);
-    padding: var(--value-2);
-    z-index: 2;
+  min-height: 11vh;
+  background-color: var(--pure-white);
+  box-shadow: var(--box-shadow-dark-left);
+  padding: var(--value-2);
+  z-index: 2;
 }
 
 .sidebar-head-intro {
-    color: var(--theme-color);
+  color: var(--pure-black);
 }
 
 .sidebar-links {
-    color: var(--text-links-color);
+  color: var(--text-links-color);
 }
 
 .sidebar-links:hover {
-    display: block;
-    text-decoration: underline;
-    text-decoration-thickness: 2.5px;
-    text-decoration-color: var(--warning-text-color);
+  display: block;
+  text-decoration: underline;
+  text-decoration-thickness: 2.5px;
+  text-decoration-color: var(--warning-text-color);
 }
-
-
 
 .intro-sidebar {
-    border-bottom: 1.8px solid var(--line-color);
+  border-bottom: 1.8px solid var(--line-color);
 }
 
-
 .sidebar-contents {
-    overflow-y: auto;
+  overflow-y: auto;
 }
 
 .docs-main {
-    min-height: calc(100vh - 10vh);
-    grid-area: main;
-    overflow-y: auto;
-    position: relative;
+  min-height: calc(100vh - 10vh);
+  grid-area: main;
+  overflow-y: auto;
+  position: relative;
 }
 
-
 .code-display {
-    margin-top: var(--value-2);
-    max-width: 100%;
-    max-height: 32rem;
-    padding: var(--value-1) 0;
-    overflow: auto;
-    border: 1.8px solid var(--line-color);
+  margin-top: var(--value-2);
+  max-width: 100%;
+  max-height: 32rem;
+  padding: var(--value-1) 0;
+  overflow: auto;
+  border: 1.8px solid var(--line-color);
 }
 
 .code-display iframe {
-    width: 100%;
-    border: 0;
+  width: 100%;
+  border: 0;
 }
 
 .component-display {
-    margin-top: var(--value-2);
-    max-width: 100%;
-    max-height: max-content;
-    padding: var(--value-2);
-    border: 1.8px solid var(--line-color);
+  margin-top: var(--value-2);
+  max-width: 100%;
+  max-height: max-content;
+  padding: var(--value-2);
+  border: 1.8px solid var(--line-color);
 }
 
 .float-btn-color {
-    color: var(--pure-white);
+  color: var(--pure-white);
 }

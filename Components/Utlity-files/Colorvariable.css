@@ -22,7 +22,7 @@
 
   --var-box-shadow: rgb(0 0 0 / 10%) 0.3rem 0rem 0.75rem;
   --box-shadow-dark: rgb(0 0 0 / 20%) 0.3rem 0rem 0.75rem;
-  --box-shadow-dark-left:rgb(0 0 0 / 20%) 0rem 0.75rem 0.75rem -0.75rem;
+  --box-shadow-dark-left: rgb(0 0 0 / 20%) 0rem 0.75rem 0.75rem -0.75rem;
   --pure-white: #fff;
   --pure-black: rgb(0, 0, 0);
   --off-white-picture-background: #f6f6f6;
@@ -37,7 +37,7 @@
   --label-text-color: #777;
 
   --line-color: #efedef;
- 
+
   /* Site text colors */
 
   --text-color: #3e4152;
