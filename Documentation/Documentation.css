@@ -123,23 +123,3 @@ i {
 .float-btn-color {
     color: var(--pure-white);
 }
-
-/* .responsive-image-display{
-    max-height: 45vh;
-    max-width: 60vw;
-} */
-
-
-
-
-
-
-
-
-
-/* 
-@media screen and (max-width: 800px){
-    *{
-        font-size: 60%;
-    }
-} */
