@@ -1,0 +1,16 @@
+@import url(/Components/SILK-UI-V1.css);
+
+
+
+
+.stacked-list {
+    width: max-content;
+}
+
+.stacked-container{
+     background-color: var(--off-white-picture-background);
+     padding: 1rem;
+     border: 1px solid var(--pure-black);
+     width: 20vw;
+     
+}

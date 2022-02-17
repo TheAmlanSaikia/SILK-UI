@@ -1,0 +1,48 @@
+
+@import url(/Components/SILK-UI-V1.css);
+
+/* to include in utility claSS */
+
+
+
+.text-container {
+  background-color: var(--off-white-picture-background);
+}
+
+.grid-2-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.dimension-banner-2cl {
+  width: 80vw;
+  box-shadow: var(--var-box-shadow);
+}
+
+.dimension-banner-3cl {
+  width: 80vw;
+  box-shadow: var(--var-box-shadow);
+}
+
+.btn-banner-pos {
+  top: 50%;
+}
+
+@media screen and (max-width: 800px){
+    .grid-2-column{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    .grid-3-column{
+        grid-template-columns: 1fr;
+       
+        
+    }
+}

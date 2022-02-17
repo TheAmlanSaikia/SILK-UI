@@ -1,0 +1,79 @@
+@import url(/Components/SILK-UI-V1.css);
+
+
+
+.item {
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+.avatar {
+  border-radius: 50%;
+  position: relative;
+}
+
+.avatar-xl-size {
+  width: 10rem;
+  height: 10rem;
+}
+
+.avatar-lg-size {
+  width: 8rem;
+  height: 8rem;
+}
+
+.avatar-md-size {
+  width: 6rem;
+  height: 6rem;
+}
+
+.avatar-sm-size {
+  width: 4rem;
+  height: 4rem;
+}
+
+.avatar-xs-size {
+  width: 2rem;
+  height: 2rem;
+}
+
+.img-cover {
+  width: 100%;
+  height: 100%;
+}
+
+.img-round {
+  border-radius: 50%;
+}
+
+.badge-status {
+  width: 15%;
+  border-radius: 50%;
+  height: 15%;
+  bottom: 16%;
+  right: 1%;
+  text-align: center;
+  border: solid 0.17rem white;
+}
+
+.badge-status-busy {
+  background-color: crimson;
+}
+
+.badge-status-online {
+  background-color: green;
+}
+
+.badge-status-away {
+  background-color: yellow;
+}
+
+.badge-status-number {
+  width: 1.62rem;
+  height: 1.62rem;
+  top: -1.3rem;
+  right: -0.6rem;
+  color: var(--theme-text-color);
+  font-weight: 300;
+  background-color: var(--theme-color);
+}

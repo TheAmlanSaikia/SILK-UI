@@ -1,0 +1,29 @@
+@import url(/Components/SILK-UI-V1.css);
+
+
+.responsive-image {
+  max-inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 2/1.5;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.potrait-image{
+  max-inline-size: 100%;
+  block-size: auto;
+  /* object-fit: cover;
+  object-position: top center; */
+}
+
+.circle-image {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+}
+
+.square-image {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 0.5rem;
+}

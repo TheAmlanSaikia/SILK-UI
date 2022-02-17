@@ -1,0 +1,51 @@
+/*Primary Button Hover */
+
+.btn-primary-solid:hover {
+    background-color: var(--theme-hover-color);
+  }
+
+  .btn-primary-outline:hover {
+    background-color: var(--theme-color);
+    color: var(--theme-text-color);
+  }
+
+  .btn-primary-underline:hover {
+    color: var(--danger-text-color);
+    text-decoration-color: var(--theme-text-color);
+  }
+
+  .link-btn:hover {
+    background-color: var(--primary-hover-color);
+  }
+
+  .btn-icon:hover {
+    color: var(--danger-text-color);
+  }
+
+
+  /* Secondary Button */
+
+  .btn-secondary-solid:hover {
+    background-color: var(--secondary-hover-color);
+  }
+  
+  .btn-secondary-outline:hover {
+    background-color: var(--secondary-color);
+    color: var(--theme-text-color);
+  }
+  
+  .btn-secondary-underline:hover {
+    text-decoration-color: var(--danger-text-color);
+  }
+
+  /* Floating Buttons */
+
+  .btn-floating-round:hover {
+    background-color: var(--theme-hover-color);
+  }
+
+  .btn-floating-roundcorner:hover {
+    background-color: var(--theme-hover-color);
+  }
+  
+  

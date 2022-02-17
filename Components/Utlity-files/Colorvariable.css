@@ -1,0 +1,45 @@
+:root {
+  --theme-color: #490e60;
+  --theme-text-color: #f7f7f7;
+  --theme-hover-color: #6d3e7f;
+  --primary-color: #e6e6fa;
+  --primary-text-color: #490e60;
+  --primary-hover-color: #cfcfe1;
+  --secondary-color: #326771;
+  --secondary-text-color: #071203;
+  --secondary-hover-color: #28525a;
+
+  /* Alerts And Button color */
+
+  --success-color: #84f1c9;
+  --success-text-color: #1b7052;
+  --danger-color: #fcc5c5;
+  --danger-text-color: #dc3545;
+  --warning-color: #ffe7c5;
+  --warning-text-color: #ff9204;
+
+  /* Cards color */
+
+  --var-box-shadow: rgb(0 0 0 / 10%) 0.3rem 0rem 0.75rem;
+  --box-shadow-dark: rgb(0 0 0 / 20%) 0.3rem 0rem 0.75rem;
+  --box-shadow-dark-left:rgb(0 0 0 / 20%) 0rem 0.75rem 0.75rem -0.75rem;
+  --pure-white: #fff;
+  --pure-black: rgb(0, 0, 0);
+  --off-white-picture-background: #f6f6f6;
+  --overlay-background-color: #eeeef0;
+  --overlay-text-color: #c1c2c4;
+
+  /* Form Color  */
+
+  --success-input-color: #2ecc71;
+  --error-input-color: #e74c3c;
+  --off-white-picture-background: #f6f6f6;
+  --label-text-color: #777;
+
+  --line-color: #efedef;
+ 
+  /* Site text colors */
+
+  --text-color: #3e4152;
+
+}
