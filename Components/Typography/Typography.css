@@ -9,31 +9,44 @@
 h1 {
   font-size: 3rem;
   line-height: 3.625rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
 }
 
-h2 {
+h2{
   font-size: 2.5rem;
-  line-height: 2.5rem;
+  font-weight: 600;
+  line-height: 3rem;
+  letter-spacing: -0.02em;
 }
+
 
 h3 {
   font-size: 2rem;
-  line-height: 2rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
 }
 
 h4 {
   font-size: 1.5rem;
-  line-height: 1.5rem;
+  line-height: 1.7rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
 }
 
 h5 {
   font-size: 1.3rem;
-  line-height: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
 }
 
 h6 {
   font-size: 1rem;
-  line-height: 1rem;
+  line-height: 1.2rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
 }
 
 
@@ -59,7 +72,7 @@ h6 {
 
 .text-md {
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.3rem;
   font-weight: 500;
 }
 
