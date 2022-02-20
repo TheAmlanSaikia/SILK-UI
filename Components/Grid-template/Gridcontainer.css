@@ -23,6 +23,7 @@
 .dimension-banner-2cl {
   width: 80vw;
   box-shadow: var(--var-box-shadow);
+  height: 50vh;
 }
 
 .dimension-banner-3cl {

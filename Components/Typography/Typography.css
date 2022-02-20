@@ -54,32 +54,37 @@ h6 {
 
 .text-normal{
  font-size: 1.2rem;
- font-weight: 500;
- line-height: 1.5rem;
+ line-height: 1.7rem;
+ font-weight: 400;
+ letter-spacing: -0.02em;
 }
 
 .text-xl {
   font-size: 1.5rem;
   line-height: 2rem;
-  font-weight: 700;
+  font-weight: 400;
+  letter-spacing: -0.02em;
 }
 
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.625rem;
-  font-weight: 700;
+  font-weight: 400;
+  letter-spacing: -0.02em;
 }
 
 .text-md {
   font-size: 1rem;
-  line-height: 1.3rem;
-  font-weight: 500;
+  line-height: 1.5rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
 }
 
 .text-sm {
   font-size: 0.875rem;
-  line-height: 1.5rem;
-  font-weight: 500;
+  line-height: 1.2rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
 }
 
 /* Color text */
