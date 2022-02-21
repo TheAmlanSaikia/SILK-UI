@@ -78,6 +78,10 @@
   border: 0.125rem solid var(--secondary-color);
 }
 
+.github-btn{
+  background-color: var(--pure-black);
+  color: var(--pure-white);
+}
 
 .btn-secondary-outline {
   border: 0.125rem solid var(--secondary-color);

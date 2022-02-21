@@ -6,6 +6,7 @@
 @import url(/Components/Grid-template/Gridcontainer.css);
 @import url(/Components/Input-Component/Form.css);
 @import url(/Components/List-Component/List.css);
+@import url(/Components/Navigation/Navigation.css);
 @import url(/Components/Responsive-Images-Component/Responsiveimages.css);
 @import url(/Components/Toast/Toast.css);
 @import url(/Components/Utlity-files/Hover.css);
@@ -17,3 +18,7 @@
 @import url(/Components/Utlity-files/Padding.css);
 @import url(/Components/Utlity-files/Reset.css);
 @import url(/Components/Utlity-files/Colorvariable.css);
+
+/* //Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');

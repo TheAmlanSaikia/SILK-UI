@@ -28,3 +28,10 @@ iframe {
   font-size: inherit;
   display: inline-block;
 }
+
+.icon-title{
+ font-family: 'Caveat', cursive;
+ font-weight: bold;
+ color: var(--pure-black);
+}
+
