@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Amlan Saikia" />
     <meta name="description" content="SILK-UI documentation page" />
-    <link rel="shortcut icon" href="/Assets/Images/Logo Image/favicon (1).ico" image/x-icon"> <title>SILK-UI</title>
+    <link rel="shortcut icon" href="/Assets/Images/Logo Image/Logo.ico" image/x-icon"> <title>SILK-UI</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,17 +17,34 @@
 <body>
     <div class="grid-container">
         <nav class="navbar sticky flex-row items-center">
-            <div class="hamburger"></div>
-            <h4>Silk-UI Logo</h4>
+         <a href="/Index.html"><h4 class="icon-title">SILK-UI</h4></a>
             <ul class="navlinks-list flex-row ml-auto  
             list-style-none">
                 <li class="navlinks">
                     <a href="/Documentation/Documentation.html" class="link navbar-link text-lg"> Documentation </a>
                 </li>
                 <li class="navlinks">
-                    <a href="http://" class="link navbar-link text-lg"> Github </a>
+                    <a href="https://github.com/TheAmlanSaikia"target="_blank" class="link navbar-link text-lg"> <i class="fa-brands fa-github fa-lg ml-1"></i></a>
                 </li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
+      <main class="main main-container flex-col flex-wrap justify-center items-center">
+          <h1 class="icon-title">SILK UI</h1>
+          <h3>The modern CSS framework.</h3>
+           <div class="text-btn-box mt-1">
+            <h5> <span class="icon-title text-xl">SILK-UI </span>  is a free, open source framework that provides ready-to-use frontend components that you can easily combine to build responsive web interfaces.</h5>
+           </div>
+              <div class="flex-row btn-container">
+                <a href="/Documentation/Documentation.html"  class="btn btn-primary-solid">Documentation</a>
+                <a href="https://github.com/TheAmlanSaikia/SILK-UI"target="_blank" class="btn btn-secondary-solid github-btn">GitHub<i class="fa-brands fa-github fa-lg ml-1"></i></a>
+              </div>   
+      </main>
     </div>
+    <script src="/Script.js"></script>
 </body>
+</html>
