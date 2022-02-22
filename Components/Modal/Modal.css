@@ -1,0 +1,45 @@
+@import url(/Components/SILK-UI-V1.css);
+
+
+.modalbody {
+    background-color: var(--pure-white);
+    border: 1.8px solid var(--line-color);
+    height: 10rem;
+    width: 20rem;
+    box-shadow: var(--var-box-shadow);
+}
+
+.modalheader {
+
+    border-bottom: 1.8px solid var(--line-color);
+}
+
+.modalmain {
+
+    border-bottom: 1.8px solid var(--line-color);
+}
+
+.modalfooter {
+    gap: 2px;
+}
+
+.btn-modal {
+    margin: 6px;
+    padding: 6px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .modalfooter {
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        height: fit-content;
+    }
+
+    .btn-modal {
+        margin-top: 2px;
+        margin-right: 0;
+    }
+
+}

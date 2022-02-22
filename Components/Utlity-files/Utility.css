@@ -35,3 +35,10 @@ iframe {
  color: var(--pure-black);
 }
 
+.no-style {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: var(--pure-white);
+
+}

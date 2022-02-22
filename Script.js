@@ -1,9 +1,8 @@
-
 const hamburger = document.querySelector(".hamburger");
 const navlinksList = document.querySelector(".navlinks-list");
-const navlinks = document.querySelectorAll(".navlinks"); 
+const navlinks = document.querySelectorAll(".navlinks");
 
-hamburger.addEventListener("click", ()=>{
+hamburger.addEventListener("click", () => {
     console.log("click");
     hamburger.classList.toggle("active");
     navlinksList.classList.toggle("active");
@@ -11,9 +10,9 @@ hamburger.addEventListener("click", ()=>{
 })
 
 
-navlinks.forEach(n => n.addEventListener("click",closeMenu))
+navlinks.forEach(n => n.addEventListener("click", closeMenu))
 
-function closeMenu(){
+function closeMenu() {
     hamburger.classList.remove("active");
     navlinks.classList.remove("active");
 }
