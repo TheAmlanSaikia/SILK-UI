@@ -3,6 +3,7 @@
 
 <h1>Description</h1>
 A component library where you can import the desired components in your next project. The components are responsive at any screens.You can also use the desired classnames for different styles. Click on the link for the documentation site.
+Made with HTML, CSS and some JavaScript
 
 https://silkier-ui.netlify.app/
  ---
