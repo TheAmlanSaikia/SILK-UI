@@ -1,26 +1,24 @@
 @import url(/Components/SILK-UI-V1.css);
 
-.rating-box{
-    width: 20vw;
-    height: 10vh;
-    background-color: var(--pure-white);
-    box-shadow: var(--var-box-shadow);
-    font-size: 2rem;
-
+.rating-box {
+  width: 20vw;
+  height: 10vh;
+  background-color: var(--pure-white);
+  box-shadow: var(--var-box-shadow);
+  font-size: 2rem;
 }
 
 .rating-box input {
-    display: none;
+  display: none;
 }
 
-
-.rating-box label{
-    color: #ccc;
-    cursor: pointer;
+.rating-box label {
+  color: var(--overlay-text-color);
+  cursor: pointer;
 }
 
-.rating-box :checked ~ label{
-    color: var(--theme-color);
+.rating-box :checked ~ label {
+  color: var(--theme-color);
 }
 
 .rating-box label:hover,
