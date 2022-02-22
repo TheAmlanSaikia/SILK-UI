@@ -131,7 +131,7 @@
   max-inline-size: 100%;
   block-size: auto;
   max-height: 25rem;
-  max-width: 23rem;
+  max-width: 20rem;
 }
 
 .horizontal-information-container {
@@ -149,4 +149,24 @@
 
 .btn-horizontal-card {
   width: auto;
+}
+
+
+@media only screen and (max-width: 480px) {
+   
+  .horizontal-cardbody {
+    max-width: 30rem;
+    max-height: 25rem;
+    margin: 1.5rem 0.5rem;
+    display: flex;
+  }
+
+  .horizontal-image-container {
+    max-inline-size: 100%;
+    block-size: auto;
+    max-height: 25rem;
+    max-width: 50%;
+  }
+  
+
 }
