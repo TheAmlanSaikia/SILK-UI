@@ -24,4 +24,7 @@
 .rating-box label:hover,
 .rating-box label:hover ~ label {
   color: var(--theme-color);
+
 }
+
+
