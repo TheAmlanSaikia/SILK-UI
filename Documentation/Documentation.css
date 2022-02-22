@@ -116,7 +116,6 @@ i {
   color: var(--pure-white);
 }
 
-
 /* Hamburger Menu */
 
 .hamburger {
@@ -133,9 +132,7 @@ i {
   background-color: var(--pure-black);
 }
 
-
 @media only screen and (max-width: 768px) {
-
   .sidebar {
     position: fixed;
     left: -100%;
@@ -188,5 +185,4 @@ i {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-
 }

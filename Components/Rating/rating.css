@@ -13,7 +13,7 @@
 }
 
 .rating-box label {
-  color: var(--overlay-text-color);
+  color: #ccc;
   cursor: pointer;
 }
 
@@ -24,7 +24,4 @@
 .rating-box label:hover,
 .rating-box label:hover ~ label {
   color: var(--theme-color);
-
 }
-
-

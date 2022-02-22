@@ -19,11 +19,11 @@
   box-shadow: var(--box-shadow-dark);
   padding: var(--value-2) var(--value-2);
   top: 0;
-  z-index: 2;
+  z-index: 5;
   width: 100vw;
 }
 
-.navbar a:hover{
+.navbar a:hover {
   color: var(--danger-text-color);
 }
 
@@ -38,13 +38,11 @@
 .main-container {
   width: 100vw;
   height: 80vh;
-
 }
 
 .text-btn-box {
   width: 40%;
 }
-
 
 /* // For Hamburger */
 
@@ -62,10 +60,7 @@
   background-color: var(--pure-black);
 }
 
-
-
 @media only screen and (max-width: 768px) {
-
   .navlinks-list {
     position: fixed;
     left: -100%;
@@ -108,7 +103,6 @@
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-
 }
 
 @media screen and (max-width: 640px) {
