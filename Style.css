@@ -23,6 +23,10 @@
   width: 100vw;
 }
 
+.navbar a:hover{
+  color: var(--danger-text-color);
+}
+
 .navlinks-list {
   gap: var(--value-2);
 }
